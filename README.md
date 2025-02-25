@@ -23,3 +23,25 @@ This repository contains MATLAB code for image filtering and Fourier Transform a
 ## Usage
 1. Clone this repository:
 https://github.com/shadab007-byte/Image-Processing-Using-DFT-and-FFT
+
+2. Open MATLAB and run `Image_Filtering_and_FFT_MATLAB_code.m` to start the image filtering process.
+3. To explore zero-padding effects, run `Zero_Padding.m`.
+
+## Dependencies
+- MATLAB R2020b or later (earlier versions may work but are not tested).
+- Image Processing Toolbox (optional but recommended).
+
+## How It Works
+1. The main script (`Image_Filtering_and_FFT_MATLAB_code.m`) allows you to:
+- Load a grayscale image.
+- Choose a filter type from a menu.
+- Apply the selected filter in the frequency domain.
+- Visualize the results in both spatial and frequency domains.
+
+2. The `Zero_Padding.m` script demonstrates how zero-padding improves frequency resolution by comparing DFT results with and without padding.
+
+## Documentation
+For detailed theoretical explanations of Fourier Transform concepts, refer to `DFT_and_FFT_of_Images_in_MATLAB.pdf`.
+
+
+
